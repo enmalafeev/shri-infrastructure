@@ -5,7 +5,7 @@ previos_tag=$(git tag | sort -r | head -2 | tail -1)
 diff_between_last_tags=$(git log $(git describe --abbrev=0 --tags $(git describe --abbrev=0)^)...$(git describe --abbrev=0))
 author_tag=$(git show ${current_tag} | grep Author: | head -1)
 date_tag=$(git show ${current_tag} | grep Date: | head -1)
-LOG=$(git log --pretty=format:"%h - %an, %cd : %s, %ce" --date=short ${previos_tag}..${current_tag})
+log=$(git log --pretty=format:"%h - %an, %cd : %s, %ce" --date=short ${previos_tag}..${current_tag})
 
 summary="Release ${current_tag} from ${author_tag}"
 description="${author_tag}\n${date_tag}\nVersion: ${current_tag}"
@@ -18,6 +18,9 @@ updateTaskUrl="https://api.tracker.yandex.net/v2/issues/"
 authHeader="Authorization: OAuth ${OAuth}"
 orgHeader="X-Org-Id: ${OrganizationId}"
 contentType="Content-Type: application/json"
+
+changelog=$(sed 's/$/\\n/' CHANGELOG.md | tr -d '\n')
+changelog_to_JSON="{\"text\":\"$changelog\"}"
 
 createStatusCode=$(curl --write-out '%{http_code}' --silent --output /dev/null --location --request POST ${task_url} \
     --header "${authHeader}" \
@@ -76,16 +79,14 @@ else
     echo "Successfully created ticket"
 fi
 
-echo "{\"text\": \"$(echo $gitlog | tr -d ':' | tr '\r\n' ' ')\"}" | jq > tmp.json
-
 createCommentUrl="https://api.tracker.yandex.net/v2/issues/${taskKey}/comments"
 
 createCommentStatusCode=$(curl --write-out '%{http_code}' --silent --output /dev/null --location --request POST \
-        "${createCommentUrl}" \
-        --header "${authHeader}" \
-        --header "${orgHeader}" \
-        --header "${contentType}" \
-        --data-binary @tmp.json
+    "${createCommentUrl}" \
+    --header "${authHeader}" \
+    --header "${orgHeader}" \
+    --header "${contentType}" \
+    --data-raw "${changelog_to_JSON}"
 )
 
 if [ "$createCommentStatusCode" -ne 201 ]
@@ -95,5 +96,3 @@ then
 else
     echo "Successfully created comment with gitlog for issue ${taskKey}"
 fi
-
-rm tmp.json
