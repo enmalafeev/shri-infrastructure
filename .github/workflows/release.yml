@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Create ticket
-        run: sh ../release.sh
+        run: sh ./release.sh
         env:
           OAuth: ${{ secrets.OAuth }}
           OrganizationId: ${{ secrets.OrganizationId }}
