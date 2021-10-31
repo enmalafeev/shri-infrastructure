@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/enmalafeev/shri-infrastructure/compare/v1.0.3...v1.1.0) (2021-10-31)
+
+
+### Features
+
+* add release.yml for gh actions ([4a0c893](https://github.com/enmalafeev/shri-infrastructure/commits/4a0c893b620299918a7765198767370148f6b1d8))
+
+
+* update release.sh ([8b12c2a](https://github.com/enmalafeev/shri-infrastructure/commits/8b12c2acba04ae89f374320bfd6182fbeb460540))
+
 ### [1.0.3](https://github.com/enmalafeev/shri-infrastructure/compare/v1.0.2...v1.0.3) (2021-10-31)
 
 
