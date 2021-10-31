@@ -23,7 +23,7 @@ else
     --header "${contentType}" \
     --data-raw '{
       "filter": {
-          "unique": "'"${unique_tag}"'"
+        "unique": "'"${unique_tag}"'"
       }
     }' | jq -r '.[0].key'
   )
@@ -38,7 +38,7 @@ else
     --header "${orgHeader}" \
     --header "${contentType}" \
     --data-raw '{
-        "text": "'"${message}"'"
+      "text": "'"${message}"'"
     }'
   )
 
