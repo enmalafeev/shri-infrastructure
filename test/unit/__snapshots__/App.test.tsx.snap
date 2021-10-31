@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Проверка главного экрана приложения Рендерится главный экран приложения 1`] = `
+<div
+  className="Application"
+>
+  <nav
+    className="navbar navbar-expand-sm navbar-light bg-light"
+  >
+    <div
+      className="container"
+    >
+      <a
+        className="Application-Brand navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        Example store
+      </a>
+      <button
+        aria-label="Toggle navigation"
+        className="Application-Toggler navbar-toggler"
+        onClick={[Function]}
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="Application-Menu collapse navbar-collapse"
+      >
+        <div
+          className="navbar-nav"
+        >
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/catalog"
+            onClick={[Function]}
+          >
+            Catalog
+          </a>
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/delivery"
+            onClick={[Function]}
+          >
+            Delivery
+          </a>
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/contacts"
+            onClick={[Function]}
+          >
+            Contacts
+          </a>
+          <a
+            aria-current={null}
+            className="nav-link"
+            href="/cart"
+            onClick={[Function]}
+          >
+            Cart
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="container pt-4"
+  />
+</div>
+`;
