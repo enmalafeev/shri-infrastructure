@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/enmalafeev/shri-infrastructure/compare/v1.1.6...v1.2.0) (2021-10-31)
+
+
+### Features
+
+* add docker.sh ([be0c2c6](https://github.com/enmalafeev/shri-infrastructure/commits/be0c2c6353be7e5548fa3790774597281ae466a8))
+* add Dockerfile and dockerignore ([bfbb822](https://github.com/enmalafeev/shri-infrastructure/commits/bfbb822fa00ee885dca2a00671de032adeeef40d))
+
+
+* add docker in release.yml ([972ba2b](https://github.com/enmalafeev/shri-infrastructure/commits/972ba2bafe7ba256ad0071acf13afc94b814d847))
+* update readme for release.sh ([3214bdd](https://github.com/enmalafeev/shri-infrastructure/commits/3214bdd8c348c06e57f99dfbb6187e3a0f5f6261))
+
 ### [1.1.6](https://github.com/enmalafeev/shri-infrastructure/compare/v1.1.5...v1.1.6) (2021-10-31)
 
 
