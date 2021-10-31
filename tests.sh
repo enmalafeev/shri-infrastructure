@@ -9,10 +9,7 @@ orgHeader="X-Org-Id: ${OrganizationId}"
 contentType="Content-Type: application/json"
 
 test_result=$(npx jest 2>&1)
-
-echo $test_result
-
-echo "{\"text\": \"$(echo $test_result | tr -d ':' | tr "\r\n" " ")\"}" | jq > tmp.json
+test_result_to_JSON="{\"text\": \"$(echo $test_result | tr -d ':' | tr "\r\n" " ")\"}"
 
 taskKey=$(curl --silent --location --request POST ${get_task_url} \
   --header "${authHeader}" \
@@ -32,10 +29,8 @@ createCommentStatusCode=$(curl --write-out '%{http_code}' --silent --output /dev
   --header "${authHeader}" \
   --header "${orgHeader}" \
   --header "${contentType}" \
-  --data-binary @tmp.json
+  --data-raw "${test_result_to_JSON}"
 )
-
-rm tmp.json
 
 if [ "$createCommentStatusCode" -ne 201 ]
 then
