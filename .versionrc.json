@@ -9,6 +9,6 @@
     {"type": "perf", "hidden": false},
     {"type": "test", "hidden": false}
   ],
-  "commitUrlFormat": "https://github.com/enmalafeev/shri-2021-task-testing/commits/{{hash}}",
-  "compareUrlFormat": "https://github.com/enmalafeev/shri-2021-task-testing/compare/{{previousTag}}...{{currentTag}}"
+  "commitUrlFormat": "https://github.com/enmalafeev/shri-infrastructure/commits/{{hash}}",
+  "compareUrlFormat": "https://github.com/enmalafeev/shri-infrastructure/compare/{{previousTag}}...{{currentTag}}"
 }
