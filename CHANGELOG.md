@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/enmalafeev/shri-infrastructure/compare/v1.1.0...v1.1.1) (2021-10-31)
+
+
+* chanhe release.sh ([a983884](https://github.com/enmalafeev/shri-infrastructure/commits/a983884de9c11c1ac36e41f259cc74de286fa58c))
+
 ## [1.1.0](https://github.com/enmalafeev/shri-infrastructure/compare/v1.0.3...v1.1.0) (2021-10-31)
 
 
