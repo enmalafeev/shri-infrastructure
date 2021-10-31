@@ -11,15 +11,15 @@ summary="Release $CURRENT_TAG"
 description="${CURRENT_TAG_AUTHOR} ${CURRENT_TAG_DATE} ${CURRENT_TAG}"
 taskURL="https://api.tracker.yandex.net/v2/issues/"
 
-curl --write-out '%{http_code}' --silent --output /dev/null --location --request POST ${taskURL} \
---header "Authorization: ${OAuth}" \
---header "X-Org-Id: ${OrganizationId}" \
---header "Content-Type: application/json" \
---data-raw '{
-    "queue": "TMP",
-    "summary": "Testing name enmalafeev",
-    "type": "task",
-    "description": "some description"
-}'
+# curl --write-out '%{http_code}' --silent --output /dev/null --location --request POST ${taskURL} \
+# --header "Authorization: ${OAuth}" \
+# --header "X-Org-Id: ${OrganizationId}" \
+# --header "Content-Type: application/json" \
+# --data-raw '{
+#     "queue": "TMP",
+#     "summary": "Testing name enmalafeev",
+#     "type": "task",
+#     "description": "some description"
+# }'
 
-# echo "${OAuth}"
+echo "${LOG}"
