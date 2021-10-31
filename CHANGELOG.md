@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/enmalafeev/shri-infrastructure/compare/v1.3.1...v1.3.2) (2021-10-31)
+
+
+* refctor tests.sh ([89444bd](https://github.com/enmalafeev/shri-infrastructure/commits/89444bdf97d4d11769be082e76768b4e813b36d6))
+* update readme ([05cdc71](https://github.com/enmalafeev/shri-infrastructure/commits/05cdc7108c2f9e544f245451334217cb874468c7))
+
 ### [1.3.1](https://github.com/enmalafeev/shri-infrastructure/compare/v1.3.0...v1.3.1) (2021-10-31)
 
 
