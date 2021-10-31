@@ -1,7 +1,5 @@
 node_modules
 dist
 NOTES.md
-Dockerfile
-.dockerignore
 hermione/screens
 hermione-html-reporter
