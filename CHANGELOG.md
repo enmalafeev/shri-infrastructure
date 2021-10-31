@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/enmalafeev/shri-infrastructure/compare/v1.0.2...v1.0.3) (2021-10-31)
+
+
+* change readme ([66ebbd2](https://github.com/enmalafeev/shri-infrastructure/commits/66ebbd2dff91dcf9e47e179d0158cace9e9b72c9))
+* upadate release.sh ([bbc6809](https://github.com/enmalafeev/shri-infrastructure/commits/bbc6809833f01ce06c4f61f035734d00e24abbb7))
+
 ### 1.0.2 (2021-10-31)
 
 
