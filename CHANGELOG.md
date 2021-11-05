@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/enmalafeev/shri-infrastructure/compare/v1.3.2...v1.4.0) (2021-11-05)
+
+
+### Features
+
+* add interesting feature ([fdd45f0](https://github.com/enmalafeev/shri-infrastructure/commits/fdd45f035d7c9cae84c5028220dedcd523e44541))
+* add not so interesting feature ([dfd9a27](https://github.com/enmalafeev/shri-infrastructure/commits/dfd9a272bde52718ced73dad43b7c85a6c2ebdba))
+* add so wow interesting feature ([9266f34](https://github.com/enmalafeev/shri-infrastructure/commits/9266f34a37f7fa08b9f49feb9271066df075e8e6))
+* add very interesting feature ([9e65387](https://github.com/enmalafeev/shri-infrastructure/commits/9e65387bee751c9d69de15edca82eb8adbcaaace))
+* change logic in so wow feature ([31211ca](https://github.com/enmalafeev/shri-infrastructure/commits/31211cac0b2133ea0c7184abcb050602da0450c6))
+
+
+* cleanup in that interesting feature ([ebd1fdd](https://github.com/enmalafeev/shri-infrastructure/commits/ebd1fddc68b1f63e82c009fe0dee4003de358190))
+* update some dotfiles ([8c8e80c](https://github.com/enmalafeev/shri-infrastructure/commits/8c8e80ccce01878ca1c774912d5d4df0b07a8203))
+
 ### [1.3.2](https://github.com/enmalafeev/shri-infrastructure/compare/v1.3.1...v1.3.2) (2021-10-31)
 
 
