@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/enmalafeev/shri-infrastructure/compare/v1.4.0...v1.5.0) (2021-11-06)
+
+
+### Features
+
+* accidentaly delete everything ([c8f307d](https://github.com/enmalafeev/shri-infrastructure/commits/c8f307d0017b6fb13a1b111ec6cf1c6a2817b746))
+* add another interesting feature ([89d417e](https://github.com/enmalafeev/shri-infrastructure/commits/89d417e21eb1ab41f5069faef2720a0d0a956b6f))
+* add another very interesting feature ([9276dd7](https://github.com/enmalafeev/shri-infrastructure/commits/9276dd76004e3b719aaddc7fbe7fed9f90c75e7a))
+
+
+* basic cleanup ([2b5ab7f](https://github.com/enmalafeev/shri-infrastructure/commits/2b5ab7f646861d1712d9e3e87bcb90733679e52c))
+* update .gitignore ([a16bec7](https://github.com/enmalafeev/shri-infrastructure/commits/a16bec7692ece7c1fa999fdf5f132da042fd1cd7))
+* update README ([40912fb](https://github.com/enmalafeev/shri-infrastructure/commits/40912fb9bbf658e7c860fa68122da363f1d47510))
+
 ## [1.4.0](https://github.com/enmalafeev/shri-infrastructure/compare/v1.3.2...v1.4.0) (2021-11-05)
 
 
